@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box; 
+    margin: 1em; 
+    font-family: 'Balsamiq Sans', cursive;
+  }
+  
+  body {
+      background-color: blanchedalmond;
+      text-align:center;
+  } 
+  
+  h1 {
+    color: purple;
+    text-decoration: underline;
+    font-size: 3em;
+  }
+  
+  
+  .calcContainer {
+    margin: 2em 10em;
+    border-radius: 5px;
+    background-color: coral;
+    border: rgb(175, 56, 175) .2em solid;
+    padding: 1em;
+  }
+  
+  button, input[type="text"], .calcSelector, p {
+    padding: .3em 1em;
+    font-size: 1.5em;
+  }
+  
+  button:hover {
+    background-color: rgb(247, 232, 192);
+    font-weight: bold;
+  }
+  
